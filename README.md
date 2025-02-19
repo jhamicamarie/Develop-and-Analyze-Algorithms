@@ -30,8 +30,15 @@ java LinkedListDemo
 
 Algorithms Implemented  
 
-1. Linked List - Cycle Detection (Floyd’s Algorithm)  
-Uses Floyd’s Cycle-Finding Algorithm to detect cycles in a linked list.  
+1. Linked List
+A Linked List is a data structure where elements (nodes) are connected using pointers. Each node contains:
+
+Data (the value stored).
+Pointer (Next) to the next node in the list.
+
+Example Algorithm: Floyd’s Cycle Detection Algorithm (Tortoise and Hare)
+This algorithm detects if a cycle exists in a linked list using two pointers.
+ 
 Algorithm:  
 - Use two pointers (slow and fast).  
 - Move slow one step, fast two steps.  
@@ -41,7 +48,11 @@ Algorithm:
 File: LinkedListDemo.java, Node.java
 
 2. Stack - Balanced Parentheses (LIFO)  
-Uses Stack Data Structure to check if parentheses are balanced.  
+A Stack follows LIFO (Last-In-First-Out), meaning elements are added and removed from the top.
+
+Example Algorithm: Balanced Parentheses Check
+A stack can be used to check if parentheses in an expression are balanced (( ) { } [ ]).
+
 Algorithm:  
 - Push opening brackets onto the stack.  
 - When encountering a closing bracket, check if it matches the top.  
@@ -49,8 +60,12 @@ Algorithm:
 
 File: StackDemo.java  
 
-3. Queue - FIFO Implementation  
-First-In-First-Out (FIFO) approach using Java’s Queue interface.  
+3. Queue - FIFO Implementation
+A Queue follows FIFO (First-In-First-Out), meaning elements are added to the back and removed from the front.
+
+Example Algorithm: Breadth-First Search (BFS)
+BFS is used in graphs and trees to traverse level by level. It uses a queue to process nodes.
+
 Operations Implemented:  
 - enqueue() → Adds element to the queue.  
 - dequeue() → Removes from the front.  
@@ -59,15 +74,24 @@ Operations Implemented:
 File: QueueDemo.java  
 
 4. Heap - Min & Max Heap  
-Uses Priority Queue (Min-Heap) and Max-Heap implementation.  
+A Heap is a complete binary tree where:
+  A Min-Heap ensures that the smallest element is always at the root.
+  A Max-Heap ensures that the largest element is always at the root.
+
+Example Algorithm: Find K Smallest Elements
+
 Algorithm:  
 - Insert elements while maintaining heap property.  
 - Extract min/max efficiently in O(log n) time.  
 
 File: HeapDemo.java  
 
-5. Graph - BFS & DFS Traversal  
-Graph Representation: Uses Adjacency List  
+5. Graph - BFS & DFS Traversal
+A graph is a data structure that consists of nodes (vertices) connected by edges.
+
+Example Algorithm: Depth-First Search (DFS)
+DFS explores as deep as possible before backtracking.
+ 
 Algorithm:  
 - BFS (Breadth-First Search): Uses Queue (FIFO)  
 - DFS (Depth-First Search): Uses Stack (LIFO or Recursion)  
@@ -75,7 +99,17 @@ Algorithm:
 File: GraphDemo.java  
 
 6. Trees - Binary Search Tree (Operations)
-Implements Insertion, Deletion, and Traversal for BST.  
+A Tree is a hierarchical data structure where:
+  The root is the topmost node.
+  Each node has zero or more child nodes.
+  A Binary Tree has at most two children per node.
+  A Binary Search Tree (BST) follows the rule:
+  Left subtree contains values smaller than the parent.
+  Right subtree contains values greater than the parent.
+
+Example Algorithm: Finding the Lowest Common Ancestor (LCA) in a BST
+The Lowest Common Ancestor (LCA) of two nodes in a BST is the deepest node that is an ancestor of both nodes.
+
 Algorithm:  
 - Insert values recursively.  
 - Search efficiently in O(log n).  
