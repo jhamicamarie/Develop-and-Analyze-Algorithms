@@ -31,6 +31,7 @@ java LinkedListDemo
 Algorithms Implemented  
 
 1. Linked List
+
 A Linked List is a data structure where elements (nodes) are connected using pointers. Each node contains:
 
 Data (the value stored).
@@ -48,6 +49,7 @@ Algorithm:
 File: LinkedListDemo.java, Node.java
 
 2. Stack
+
 A Stack follows LIFO (Last-In-First-Out), meaning elements are added and removed from the top.
 
 Example Algorithm: Balanced Parentheses Check
@@ -61,6 +63,7 @@ Algorithm:
 File: StackDemo.java  
 
 3. Queue
+
 A Queue follows FIFO (First-In-First-Out), meaning elements are added to the back and removed from the front.
 
 Example Algorithm: Breadth-First Search (BFS)
@@ -74,6 +77,7 @@ Operations Implemented:
 File: QueueDemo.java  
 
 4. Heap
+
 A Heap is a complete binary tree where:
   A Min-Heap ensures that the smallest element is always at the root.
   A Max-Heap ensures that the largest element is always at the root.
@@ -87,6 +91,7 @@ Algorithm:
 File: HeapDemo.java  
 
 5. Graph
+
 A graph is a data structure that consists of nodes (vertices) connected by edges.
 
 Example Algorithm: Depth-First Search (DFS)
@@ -99,6 +104,7 @@ Algorithm:
 File: GraphDemo.java  
 
 6. Trees
+
 A Tree is a hierarchical data structure where:
   The root is the topmost node.
   Each node has zero or more child nodes.
